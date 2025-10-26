@@ -1,4 +1,4 @@
-# Визначення класу Teacher (без змін)
+# Визначення класу Teacher
 class Teacher:
     def __init__(self, first_name, last_name, age, email, can_teach_subjects):
         self.first_name = first_name
