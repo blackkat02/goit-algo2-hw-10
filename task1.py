@@ -133,7 +133,7 @@ if __name__ == "__main__":
     # Виклик функції створення розкладу
     schedule = create_schedule(subjects_initial, teachers_initial)
 
-    # Виведення розкладу (за твоїм шаблоном)
+    # Виведення розкладу
     if schedule:
         print("\n--- ✅ Фінальний Розклад Занять ---")
         for teacher in schedule:
